@@ -20,7 +20,7 @@ import FAQ from './pages/FAQ';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gradient-to-br from-amber-50 via-green-50 to-teal-50">
+      <div className="bg-warm-beige text-gray-800">
         <Header />
         <main>
           <Routes>

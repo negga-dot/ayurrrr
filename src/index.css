@@ -1,3 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined');
+
+:root {
+  --soft-sage-green: #7FB069;
+  --warm-beige: #F5F5DC;
+  --soothing-blue: #98D8C8;
+  --earthy-accent: #A0522D;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+}
+
+.text-soft-sage-green { color: var(--soft-sage-green); }
+.bg-soft-sage-green { background-color: var(--soft-sage-green); }
+.border-soft-sage-green { border-color: var(--soft-sage-green); }
+.text-warm-beige { color: var(--warm-beige); }
+.bg-warm-beige { background-color: var(--warm-beige); }
+.text-soothing-blue { color: var(--soothing-blue); }
+.bg-soothing-blue { background-color: var(--soothing-blue); }
+.text-earthy-accent { color: var(--earthy-accent); }
+
+.hero-pattern {
+  background-color: var(--warm-beige);
+  background-image:
+    radial-gradient(circle at 100% 0, rgba(127, 176, 105, 0.1) 0%, rgba(127, 176, 105, 0) 20%),
+    radial-gradient(circle at 0 100%, rgba(127, 176, 105, 0.1) 0%, rgba(127, 176, 105, 0) 25%);
+}
+
+.leaf-pattern {
+  position: absolute;
+  opacity: 0.05;
+  color: var(--soft-sage-green);
+}
